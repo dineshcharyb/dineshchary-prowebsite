@@ -2,11 +2,11 @@
 
 import React from "react"
 import { motion } from "framer-motion"
-import { MessageSquare, Mail, Github, Linkedin, ExternalLink, ArrowRight, ShieldCheck } from "lucide-react"
+import { MessageSquare, Mail, ShieldCheck } from "lucide-react"
 import { Button } from "./ui/button"
 import { Badge } from "./ui/badge"
 
-const HERO_BADGES = ["AWS", "Kubernetes", "DevSecOps", "Terraform", "Docker"]
+const HERO_BADGES = ["AWS", "Kubernetes", "DevSecOps", "Docker"]
 
 export default function Hero() {
   const containerVariants = {
@@ -22,7 +22,7 @@ export default function Hero() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut" }
+      transition: { duration: 0.6 }
     }
   }
 
@@ -76,7 +76,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-sm sm:text-base text-slate-400 leading-relaxed max-w-xl"
           >
-            5+ years delivering AWS automation, production-grade Kubernetes platforms, secure shift-left CI/CD pipelines, and robust DevSecOps engineering across cloud environments.
+            4+ years delivering AWS automation, production-grade Kubernetes platforms, secure shift-left CI/CD pipelines, and robust DevSecOps engineering across cloud environments.
           </motion.p>
 
           {/* Technology Badges */}
@@ -121,39 +121,12 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* Social Profiles & Contact displays */}
           <motion.div 
             variants={itemVariants}
-            className="flex items-center gap-4 text-slate-400 text-sm mt-2 border-t border-white/5 pt-4 w-full"
+            className="flex flex-col gap-0.5 text-xs text-slate-400 font-mono mt-2 border-t border-white/5 pt-4 w-full"
           >
-            <div className="flex gap-2">
-              {/* GitHub Link */}
-              <a 
-                href="https://github.com/dineshcharyb/dineshchary-prowebsite" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-xl bg-slate-900/60 border border-white/10 hover:border-accent-cyan hover:text-accent-cyan flex items-center justify-center transition-colors"
-                aria-label="GitHub Profile"
-              >
-                <Github size={18} />
-              </a>
-
-              {/* LinkedIn Link */}
-              <a 
-                href="LINKEDIN_URL_HERE" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-xl bg-slate-900/60 border border-white/10 hover:border-accent-cyan hover:text-accent-cyan flex items-center justify-center transition-colors"
-                aria-label="LinkedIn Profile"
-              >
-                <Linkedin size={18} />
-              </a>
-            </div>
-
-            <div className="flex flex-col gap-0.5 text-xs text-slate-400 font-mono">
-              <div>Email: <a href="mailto:bompelly.dineshchary@gmail.com" className="text-white hover:text-accent-cyan transition-colors">bompelly.dineshchary@gmail.com</a></div>
-              <div>Tel: <a href="https://wa.me/919346563449" className="text-white hover:text-accent-cyan transition-colors">+91 9346563449</a></div>
-            </div>
+            <div>Email: <a href="mailto:bompelly.dineshchary@gmail.com" className="text-white hover:text-accent-cyan transition-colors">bompelly.dineshchary@gmail.com</a></div>
+            <div>Tel: <a href="https://wa.me/919346563449" className="text-white hover:text-accent-cyan transition-colors">+91 9346563449</a></div>
           </motion.div>
         </motion.div>
 
@@ -191,15 +164,9 @@ export default function Hero() {
               />
               {/* Cyber Overlay Details */}
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-4 flex flex-col justify-end">
-                <span className="text-[10px] text-accent-cyan tracking-widest uppercase font-bold font-mono">AWS & Kubernetes Dev</span>
+                <span className="text-[10px] text-accent-cyan tracking-widest uppercase font-bold font-mono">AWS & Kubernetes DevOps</span>
                 <span className="text-sm font-bold text-white tracking-wide">B. Dinesh Chary</span>
               </div>
-            </div>
-            
-            {/* Futuristic floating overlay tech-tag */}
-            <div className="absolute -top-3 -right-3 bg-slate-950/90 border border-accent-cyan/30 text-[10px] text-accent-cyan font-mono px-3 py-1.5 rounded-lg backdrop-blur-md shadow-lg flex items-center gap-1.5 animate-pulse-slow">
-              <span className="w-1.5 h-1.5 bg-accent-cyan rounded-full" />
-              INFRA SECURE
             </div>
           </motion.div>
         </motion.div>

@@ -2,7 +2,7 @@
 
 import React from "react"
 import { motion } from "framer-motion"
-import { Activity, ShieldCheck, Box, Code, ExternalLink, ArrowRight } from "lucide-react"
+import { Activity, ShieldCheck, Box, ArrowRight } from "lucide-react"
 import { Card } from "./ui/card"
 import { Badge } from "./ui/badge"
 
@@ -16,9 +16,9 @@ const PROJECTS_DATA = [
   },
   {
     title: "DevSecOps Secure CI/CD Pipeline",
-    desc: "Designed a secure 'shift-left' integration inside Jenkins and GitHub Actions workflows, executing static analysis code gates and vulnerability assessments before compilation.",
+    desc: "Designed a secure 'shift-left' integration inside Jenkins workflows, executing static analysis code gates and vulnerability assessments before compilation.",
     icon: ShieldCheck,
-    tech: ["Jenkins", "Docker", "Trivy", "SonarQube", "GitHub Actions"],
+    tech: ["Jenkins", "Docker", "Trivy", "SonarQube"],
     metrics: "Zero Critical Vulnerabilities in Prod"
   },
   {
@@ -27,13 +27,6 @@ const PROJECTS_DATA = [
     icon: Box,
     tech: ["Kubernetes", "Docker", "Ingress", "Helm", "AutoScaling"],
     metrics: "99.99% Availability Architecture"
-  },
-  {
-    title: "Terraform Infrastructure as Code",
-    desc: "Automated AWS environment provisioning by authoring reusable IaC configurations. Provisioned safe VPC subnets, IAM boundaries, EC2 nodes, and secure storage structures.",
-    icon: Code,
-    tech: ["Terraform", "AWS", "EC2", "IAM", "VPC", "S3"],
-    metrics: "100% Environment Replication Speed"
   }
 ]
 

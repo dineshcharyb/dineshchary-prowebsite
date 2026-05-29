@@ -13,9 +13,9 @@ const EXPERIENCE_DATA = [
     duration: "Sep 2021 – Present",
     location: "Hyderabad, India",
     type: "Full-Time",
-    tech: ["AWS", "Kubernetes", "DevSecOps", "Terraform", "Jenkins", "SonarQube", "Trivy", "Linux", "Nginx"],
+    tech: ["AWS", "Kubernetes", "DevSecOps", "Jenkins", "SonarQube", "Trivy", "Linux", "Nginx"],
     bullets: [
-      "Built scalable, secure AWS cloud infrastructure using modular Terraform modules, promoting reliable replication across elastic environments.",
+      "Built scalable, secure AWS cloud infrastructure across multi-AZ VPCs, promoting reliable replication across elastic environments.",
       "Orchestrated container deployments and handled cluster scaling using managed Amazon EKS (Kubernetes) environments.",
       "Designed and automated production-grade CI/CD pipelines integrating Trivy vulnerability scanning and SonarQube quality gates to achieve robust DevSecOps compliance.",
       "Configured high-performance Nginx reverse proxies, SSL keys, and optimized load balancing setups.",

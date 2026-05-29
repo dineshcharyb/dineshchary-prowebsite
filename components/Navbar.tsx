@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Menu, X, ShieldAlert, Terminal } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const NAV_ITEMS = [
@@ -53,13 +53,9 @@ export default function Navbar() {
       )}
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between">
-        {/* Brand Logo - Styled as terminal command */}
-        <a href="#home" className="flex items-center gap-2 group">
-          <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-r from-accent-cyan to-accent-blue text-background shadow-md">
-            <Terminal size={16} className="stroke-[2.5]" />
-          </div>
+        <a href="#home" className="flex items-center group">
           <span className="text-base sm:text-lg font-bold tracking-tight text-white group-hover:text-accent-cyan transition-colors">
-            dinesh.dev<span className="text-accent-cyan">_</span>
+            Dinesh.<span className="text-accent-cyan">DevOps</span>
           </span>
         </a>
 

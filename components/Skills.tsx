@@ -40,7 +40,6 @@ const SKILLS_DATA = [
     color: "indigo",
     items: [
       { name: "Jenkins", level: 90 },
-      { name: "GitHub Actions", level: 90 },
       { name: "CI/CD", level: 95 },
       { name: "Shell Scripting", level: 85 }
     ]
@@ -51,7 +50,6 @@ const SKILLS_DATA = [
     color: "emerald",
     items: [
       { name: "DevSecOps", level: 95 },
-      { name: "Terraform", level: 90 },
       { name: "SonarQube", level: 85 },
       { name: "Trivy", level: 85 }
     ]

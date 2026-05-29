@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
-import { MessageSquare, Mail, Github, Linkedin, Copy, Check, Terminal, ExternalLink } from "lucide-react"
+import { MessageSquare, Mail, ExternalLink, Terminal, Check, Copy } from "lucide-react"
 import { Card } from "./ui/card"
 import { Button } from "./ui/button"
 
@@ -127,18 +127,18 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="hover:text-white flex items-center gap-1 transition-colors"
             >
-              <Github size={12} />
+              <ExternalLink size={12} />
               <span>GitHub</span>
               <ExternalLink size={10} className="opacity-50" />
             </a>
             <span>|</span>
             <a 
-              href="LINKEDIN_URL_HERE" 
+              href="https://www.linkedin.com/in/bompelly-dinesh-chary-9b1504188" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-white flex items-center gap-1 transition-colors"
             >
-              <Linkedin size={12} />
+              <ExternalLink size={12} />
               <span>LinkedIn</span>
               <ExternalLink size={10} className="opacity-50" />
             </a>

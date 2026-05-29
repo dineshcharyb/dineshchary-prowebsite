@@ -2,11 +2,11 @@
 
 import React from "react"
 import { motion } from "framer-motion"
-import { Shield, Server, Cpu, Cloud, Award, HelpCircle } from "lucide-react"
+import { Shield, Server, Cloud } from "lucide-react"
 import { Card } from "./ui/card"
 
 const STATS = [
-  { value: "5+ Years", label: "Professional Experience", desc: "AWS, Kubernetes, & CI/CD" },
+  { value: "4+ Years", label: "Professional Experience", desc: "AWS, Kubernetes, & CI/CD" },
   { value: "20+", label: "Deployments Delivered", desc: "Production environments" },
   { value: "99.9%", label: "Uptime Focus", desc: "Reliability & redundancy" },
   { value: "Specialist", label: "Cloud & DevSecOps", desc: "End-to-end security" },
@@ -16,7 +16,6 @@ const HIGHLIGHTS = [
   { icon: Cloud, title: "AWS Cloud Engineering", desc: "Multi-AZ VPCs, scalable EC2 nodes, managed EKS clusters, secure IAM designs, and CloudWatch telemetry." },
   { icon: Server, title: "Kubernetes Platforms", desc: "Orchestrating scalable application deployment pipelines, handling Ingress controllers, and Helm charts." },
   { icon: Shield, title: "DevSecOps Security", desc: "Implementing shift-left security scans with SonarQube quality gates and Trivy container vulnerability tools." },
-  { icon: Cpu, title: "Infrastructure as Code", desc: "Writing modular, highly reusable Terraform configurations to manage elastic environments securely." },
 ]
 
 export default function About() {

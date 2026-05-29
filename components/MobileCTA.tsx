@@ -48,15 +48,12 @@ export default function MobileCTA() {
               </button>
             </a>
 
-            {/* Email Link */}
             <a
               href="mailto:bompelly.dineshchary@gmail.com?subject=DevOps%20Opportunity%20Discussion&body=Hi%20Dinesh,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect."
-              className="flex-1"
+              className="flex-1 w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold bg-slate-800 border border-slate-700/80 text-white hover:bg-slate-700 active:scale-95 transition-all"
             >
-              <button className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold bg-slate-800 border border-slate-700/80 text-white hover:bg-slate-700 active:scale-95 transition-all">
-                <Mail size={16} />
-                Email
-              </button>
+              <Mail size={16} />
+              Email
             </a>
           </div>
         </motion.div>

@@ -18,14 +18,13 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "Bompelly Dinesh Chary | AWS DevOps & DevSecOps Engineer",
-  description: "AWS DevOps & DevSecOps Engineer specializing in Kubernetes, secure CI/CD pipelines, Terraform Infrastructure as Code, AWS cloud infrastructure, and security automation.",
+  description: "AWS DevOps & DevSecOps Engineer specializing in Kubernetes, secure CI/CD pipelines, AWS cloud infrastructure, and security automation.",
   keywords: [
     "Bompelly Dinesh Chary",
     "Dinesh Chary",
     "AWS DevOps",
     "DevSecOps",
     "Kubernetes Specialist",
-    "Terraform IaC",
     "Jenkins Automation",
     "Trivy",
     "SonarQube",
@@ -50,7 +49,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://bompelly-dineshchary.vercel.app",
     title: "Bompelly Dinesh Chary | AWS DevOps & DevSecOps Engineer",
-    description: "AWS DevOps & DevSecOps Engineer specializing in Kubernetes, secure CI/CD pipelines, Terraform Infrastructure as Code, AWS cloud infrastructure, and security automation.",
+    description: "AWS DevOps & DevSecOps Engineer specializing in Kubernetes, secure CI/CD pipelines, AWS cloud infrastructure, and security automation.",
     siteName: "B Dinesh Chary Portfolio",
     images: [
       {
@@ -64,7 +63,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Bompelly Dinesh Chary | AWS DevOps & DevSecOps Engineer",
-    description: "AWS DevOps & DevSecOps Engineer specializing in Kubernetes, secure CI/CD pipelines, Terraform Infrastructure as Code, AWS cloud infrastructure, and security automation.",
+    description: "AWS DevOps & DevSecOps Engineer specializing in Kubernetes, secure CI/CD pipelines, AWS cloud infrastructure, and security automation.",
     images: ["/dinesh.png"],
   },
 }
